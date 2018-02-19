@@ -3,6 +3,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
 
-	<preference for="PavelLeonidov\WebApiPdfInvoice\Api\PdfInvoiceRepositoryInterface" type="PavelLeonidov\WebApiRestPdf\Model\Invoice\PdfInvoiceRepository"/>
+	<preference for="PavelLeonidov\WebApiPdfInvoice\Api\PdfInvoiceRepositoryInterface" type="PavelLeonidov\WebApiPdfInvoice\Model\Invoice\PdfInvoiceRepository"/>
 
 </config>

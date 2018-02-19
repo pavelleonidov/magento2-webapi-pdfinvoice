@@ -46,12 +46,8 @@ class PdfInvoiceRepository implements PdfInvoiceRepositoryInterface {
 
 	/**
 	 * PdfInvoiceRepository constructor
-	 * @param Metadata $invoiceMetadata
 	 * @param Pdf $helper
-	 * @param DateTime $dateTime
-	 * @param FileFactory $fileFactory
-	 * @param PdfgeneratorRepository $pdfGeneratorRepository
-	// * @param \PavelLeonidov\WebApiRestPdf\Model\Order\PdfInvoiceRepositoryResponseInterfaceFactory $dataFactory
+	 * @param PdfgeneratorRepository $pdfGeneratorRepository,
 	 * @param InvoiceRepository $invoiceRepository
 	 */
 	public function __construct(
